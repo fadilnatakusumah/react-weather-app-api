@@ -1,3 +1,9 @@
+body{
+  background-color: #570157;
+  padding: 0;
+  margin: 0;
+  
+}
 .App {
   text-align: center;
 }
@@ -25,4 +31,36 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.container{
+  border-radius: 40px;
+  background-color: #222;
+  margin: 50px 100px;
+  height: 500px;
+}
+button{
+  margin-left: 5px;
+  background-color: blueviolet;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+}
+input{
+  color: #222;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 3px;  
+}
+.title-container{
+  color: white;
+  border-radius: 40px 0 0 40px;
+  height: 500px;
+  padding: 50px;
+  background-image: url('./assets/bg3.jpg');
+  background-size: cover;
+}
+.weather-container{
+  padding: 50px;
+  color: white;
 }
